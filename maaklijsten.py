@@ -146,8 +146,6 @@ HEADERS_NORMAAL_OBJ = [
     KostenHeader("factuurnummer", True, True, False, False, False),
     Header("Voorwaarden voor deelname: ik heb de voorwaarden gelezen en ga hiermee akkoord.", True, True, False, False, False),
     Header("Ik geef toestemming voor het gebruik van mijn persoonsgegevens", True, True, False, False, False),
-    Header(TOESTEMMING_FOTO, True, True, False, False, False),
-    Header(TOESTEMMING_FOTO_NEE, True, True, False, False, False),
     Header("Opmerkingen door organisatie (niet zichtbaar voor deelnemer)", True, True, False, False, False)
 ]
 
@@ -247,7 +245,6 @@ HEADERS_OUDERKIND = [
     DEELNAMEKOSTEN + "factuurnummer",
     "Ik ga hier mee akkoord",
     "Ik geef toestemming voor het gebruik van mijn persoonsgegevens",
-    TOESTEMMING_FOTO,
     "Opmerkingen door organisatie (niet zichtbaar voor deelnemer)"
 ]
 
@@ -296,8 +293,6 @@ KOLOMMEN_ALLES = [
     "Relatie met de deelnemer",
     "Relatie met de deelnemer Reden: anders (vul in)",
     "Telefoonnummer",
-    TOESTEMMING_FOTO,
-    TOESTEMMING_FOTO_NEE,
 ]
 
 ALLEEN_MEDISCH = [
