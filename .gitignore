@@ -4,3 +4,4 @@ hit.yaml
 zips/
 zips-*/
 venv/
+doc/*.pdf
