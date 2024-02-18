@@ -1,0 +1,6 @@
+download/*.csv
+*.csv
+hit.yaml
+zips/
+zips-*/
+venv/
